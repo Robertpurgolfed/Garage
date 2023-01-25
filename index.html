@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto-Mag</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&family=Roboto+Condensed:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./dist/css/main.min.css">
+</head>
+
+<body>
+    <nav class="nav">
+        <div class="wrapper">
+            <div class="container">
+                <div class="logo"><a href="#"><img src="./dist/img/carlogo.svg" alt="Logo z ikoną samochodu"
+                            class="logo-icon"></a>
+                </div>
+                <div class="items">
+                    <a href="#aboutus" class="items-link">O nas</a>
+                    <a href="#services" class="items-link">Usługi</a>
+                    <a href="#contact" class="items-link">Kontakt</a>
+                </div>
+                <button class="burger" aria-label="menu">
+                    <div class="burger-bar"></div>
+                </button>
+            </div>
+        </div>
+        <div class="mobile-items">
+            <div class="mobile-items-box">
+                <a href="#aboutus" class="mobile-item-link">
+                    <div class="mobile-item mobile-item--aboutus">
+                        <div class="shadow"></div>
+                        <p class="mobile-item-text">O nas</p>
+                    </div>
+                </a>
+                <a href="#services" class="mobile-item-link">
+                    <div class="mobile-item mobile-item--services">
+                        <div class="shadow"></div>
+                        <p class="mobile-item-text">Usługi</p>
+                    </div>
+                </a>
+                <a href="#contact" class="mobile-item-link">
+                    <div class="mobile-item mobile-item--contact">
+                        <div class="shadow"></div>
+                        <p class="mobile-item-text">Kontakt</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </nav>
+    <header class="header">
+        <div class="header-img">
+            <div class="header-shadow"></div>
+            <h1 class="brand">Auto-Mag</h1>
+            <p class="brand-text">Serwis samochodowy</p>
+            <a href="#aboutus"><img src="./dist/img/arrow-down.svg" alt="arrow navigating down"
+                    class="arrow-down wobble-hor-bottom"></a>
+        </div>
+    </header>
+    <section id="aboutus" class="aboutus">
+        <div class="wrapper">
+            <div class="heading-highlight">
+                <h2 class="aboutus-heading">O nas</h2>
+            </div>
+            <div class="aboutus-textbox border-gradient">
+                <p class="aboutus-text">Nasz serwis samochodowy to miejsce, gdzie każdy klient może liczyć na
+                    profesjonalną obsługę oraz rzetelne naprawy swojego pojazdu. Posiadamy wykwalifikowany zespół
+                    mechaników, którzy posiadają bogate doświadczenie i są zawsze gotowi do pomocy. Oferujemy szeroki
+                    zakres usług, od prostych przeglądów po naprawy silników czy układów hamulcowych. <br> Nasz serwis
+                    jest
+                    wyposażony w nowoczesny sprzęt diagnostyczny, pozwalający na szybką i dokładną
+                    diagnozę usterki. Kładziemy nacisk na jakość i terminowość, dlatego oferujemy gwarancję na wszystkie
+                    wykonane usługi. <br> Naszym celem jest zapewnienie Państwu bezpieczeństwa i komfortu podróżowania,
+                    dlatego dbamy o każdy
+                    szczegół i staramy się, aby każda naprawa przebiegała sprawnie i bezproblemowo. Zachęcamy do
+                    skorzystania z naszych usług i przekonania się o naszej rzetelności oraz profesjonalizmie.</p>
+                <button class="services-btn"><a href="#services" class="services-btn-link">Sprawdź nasze usługi!</a>
+                </button>
+            </div>
+        </div>
+    </section>
+    <section id="services" class="services">
+        <div class="wrapper">
+            <div class="heading-highlight">
+                <h2 class="aboutus-heading">Usługi</h2>
+            </div>
+            <div class="services-box">
+                <div class="geometry card">
+                    <div class="shadow"></div>
+                    <p class="card-header">Geometria</p>
+                    <ul class="card-list">
+                        <li class="card-list-item">Zbieżność kół</li>
+                        <li class="card-list-item">Kąt pochylenia</li>
+                        <li class="card-list-item">Kąt pochylenia osi sworznia zwrotnicy</li>
+                        <li class="card-list-item">Kąt wyprzedzenia osi sworznia zwrotnicy</li>
+                    </ul>
+                    <img src="./dist/img/fingerprint.svg" alt="" class="fingerprint">
+                </div>
+                <div class="awd card">
+                    <div class="shadow"></div>
+                    <p class="card-header">Strefa 4x4</p>
+                    <ul class="card-list">
+                        <li class="card-list-item">Geometria 4x4</li>
+                        <li class="card-list-item">Naprawa napędów 4x4</li>
+                    </ul>
+                    <img src="./dist/img/fingerprint.svg" alt="" class="fingerprint">
+                </div>
+            </div>
+            <div class="items-box">
+                <div class="services-item items-box-one" data-aos="flip-up">
+                    <img src="./dist/img/tire.svg" alt="" class="item-one-icon">
+                    <p class="item-text">Wymiana opon</p>
+                </div>
+                <div class="services-item items-box-two" data-aos="flip-up">
+                    <img src="./dist/img/underbody.svg" alt="">
+                    <p class="item-text">Naprawa zawieszenia i układu kierowniczego</p>
+                </div>
+                <div class="services-item items-box-three" data-aos="flip-up">
+                    <img src="./dist/img/oil.svg" alt="">
+                    <p class="item-text">Wymiana oleju i filtrów</p>
+                </div>
+                <div class="services-item items-box-four" data-aos="flip-right">
+                    <img src="./dist/img/conditioner.svg" alt="">
+                    <p class="item-text">Serwis klimatyzacji</p>
+                </div>
+                <div class="services-item items-box-five" data-aos="flip-right">
+                    <img src="./dist/img/timingbelt.svg" alt="">
+                    <p class="item-text">Serwis rozrządu</p>
+                </div>
+                <div class="services-item items-box-six" data-aos="flip-right">
+                    <img src="./dist/img/absorber.svg" alt="">
+                    <p class="item-text">Serwis amortyzatorów</p>
+                </div>
+                <div class="services-item items-box-seven" data-aos="flip-left">
+                    <img src="./dist/img/brakes.svg" alt="">
+                    <p class="item-text">Serwis hamulców</p>
+                </div>
+                <div class="services-item items-box-eight" data-aos="flip-left">
+                    <img src="./dist/img/pc.svg" alt="">
+                    <p class="item-text">Diagnostyka komputerowa</p>
+                </div>
+                <div class="services-item items-box-nine" data-aos="flip-left">
+                    <img src="./dist/img/equipment.svg" alt="">
+                    <p class="item-text">Montaż wyposażenia</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <div class="wrapper">
+            <div class="heading-highlight">
+                <h2 class="aboutus-heading">Kontakt</h2>
+            </div>
+            <div class="map-box">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2398.2171219343604!2d18.867050444546987!3d50.44440878377848!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3d1512d1832cdb35!2sAuto-Mag%20Sp.%20z%20o.o.!5e0!3m2!1spl!2spl!4v1674593087032!5m2!1spl!2spl"
+                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+            </div>
+            <div class="contact-text border-gradient">
+                <div class="shadow"></div>
+                <p class="contact-text-heading">Auto-Mag sp. z o.o.</p>
+                <p class="contact-text-address"><span>ul. Hutnicza 5-9</span><span>42-600 Tarnowskie Góry</span>
+                </p>
+                <p class="contact-text-info"><span>Nip:
+                        6452195270</span><span>Bdo: 000131641</span></p>
+                <div class="phone"><img src="./dist/img/phone.svg" alt="" class="phone-icon"><a href="tel:+48605659216"
+                        class="phone-number">605 659 216</a><a href="tel:+48730061182" class="phone-number">730 061
+                        182</a></div>
+                <div class="mail"><img src="./dist/img/mail.svg" alt="" class="mail-icon"><a
+                        href="mailto:biuro@auto-mag.com.pl">biuro@auto-mag.com.pl</a></div>
+            </div>
+            <ul class="hours">
+                <p class="isopen">Teraz mamy <span class="status"></span></p>
+                <li>Pon - Pt: 08:00 - 17:00</li>
+                <li>Sobota: 08:00 - 13:00</li>
+            </ul>
+        </div>
+    </section>
+    <footer class="footer">
+        <p class="footer-text"><span class="footer__year"></span> || © robertpurgol.fed@gmail.com</p>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="/dist/js/date.min.js"></script>
+    <script src="/dist/js/main.min.js"></script>
+    <script src="/dist/js/nav.min.js"></script>
+</body>
+
+</html>
